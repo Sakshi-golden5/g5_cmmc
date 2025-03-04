@@ -4,30 +4,27 @@ import img1 from "../assets/2.jpg"
 import img2 from "../assets/3.jpg"
 import vendorimg from "../assets/1.jpg"
 import bannerimg from "../assets/4 3.jpg"
-import logo from "../assets/LOGO 2.png"
+import logo from "../assets/Newlogo2.png"
 
 function BHost() {
   const imageRef1 = useRef(null);
   const imageRef2 = useRef(null);
 
-  // Intersection Observer for animating images on scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries, observer) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Add the 'is-visible' class to trigger the animation
             entry.target.classList.add("is-visible");
           } else {
-            // Optionally, you can remove the class when the image leaves the view to reset it
+
             entry.target.classList.remove("is-visible");
           }
         });
       },
-      { threshold: 0.5 } // Trigger animation when 50% of the image is visible
+      { threshold: 0.5 }
     );
 
-    // Observe images for animation trigger
     if (imageRef1.current) observer.observe(imageRef1.current);
     if (imageRef2.current) observer.observe(imageRef2.current);
 
@@ -41,7 +38,7 @@ function BHost() {
     <div className="bhost-page">
       <div className="bhost-banner">
         <img src={bannerimg} alt="Banner" />
-        {/* Logo Centered on Banner */}
+
         <div className="logo-center">
           <img src={logo} alt="Logo" />
         </div>
@@ -59,7 +56,7 @@ function BHost() {
         <div class="section-separator"></div>
 
       <div className="bhost-container">
-        {/* Attendee Section with Running Orange Gradient */}
+ 
         <div className="bhost-box-attendee">
         <h2>How It Works for Attendees</h2>
           <img
@@ -71,11 +68,6 @@ function BHost() {
             Attendees will designate an interest in participating in the Express
             Connect program when registering for the conference.
           </p>
-          {/* <p>
-            Interested attendees are contacted April 24th with an invitation
-            from Forum Leaders to build their Attendee Company Profile.
-          </p> */}
-
           <p>
             <strong>Step 1:</strong> Building the Attendee Company Profile.
           </p>
@@ -99,7 +91,6 @@ function BHost() {
           <button className="blue-btn" onClick={() => window.open("https://www.eventbrite.com/e/example-event-registration", "_blank")}> Register Today</button>        
           </div>
 
-        {/* Host Section with White Background */}
         <div className="bhost-box-host">
         <h2>How It Works for Speakers</h2>
           <img

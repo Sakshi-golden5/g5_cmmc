@@ -1,22 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Social icons
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import './Footer.css';
 
 function Footer() {
-  const currentYear = new Date().getFullYear(); // Dynamic year
+  const currentYear = new Date().getFullYear(); 
 
   return (
     <footer>
       <div className="footer-container">
-        {/* Navigation Links */}
         <div className="footer-links">
           <Link to="/services">Services</Link>
           <Link to="/contact-us">Contact Us</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
 
-        {/* Social Media Links */}
         <div className="social-media">
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <FaFacebook />
@@ -32,7 +30,6 @@ function Footer() {
           </a>
         </div>
 
-        {/* Copyright Section */}
         <p className="copyright">&copy; {currentYear} Golden Five. All rights reserved.</p>
       </div>
     </footer>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import logo from "../assets/LOGO 2.png";
+import logo from "../assets/Newlogo2.png"
 import bgVideo from "../assets/LA1.mp4"
 
 function Home() {

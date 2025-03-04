@@ -8,10 +8,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column; /* Ensures logo and text are stacked vertically */
+  flex-direction: column;
 }
 
-/* Background Video */
 .background-video {
   position: absolute;
   top: 0;
@@ -22,7 +21,6 @@
   z-index: -1;
 }
 
-/* Dark Gradient Overlay */
 .hero::before {
   content: "";
   position: absolute;
@@ -34,7 +32,6 @@
   z-index: 0;
 }
 
-/* Overlay Content */
 .overlay {
   position: relative;
   color: white;
@@ -48,25 +45,22 @@
   align-items: center;
 }
 
-/* Logo Styling */
 .logo {
-  width: 30%; /* Set logo width */
+  width: 30%;
   height: auto;
-  margin: 0; /* Remove margins to avoid gaps */
+  margin: 0;
 }
 
-/* Title */
 .overlay h3 {
   font-size: clamp(1.5rem, 3vw, 3rem);
-  margin-top: 0; /* Ensure no gap between logo and text */
+  margin-top: 0; 
 }
 
-/* Paragraph Text */
 .overlay p {
   font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 1.5;
   max-width: 75%;
-  margin-top: 10px; /* Small gap after heading */
+  margin-top: 10px; 
 }
 
 .event-subtitle {
@@ -85,7 +79,7 @@
   margin-bottom: 15px;
 }
 
-/* Register Button */
+
 .register-btn-1 {
   display: inline-block;
   padding: 12px 35px;
@@ -104,7 +98,6 @@
   background-color: #e65c00;
 }
 
-/* About, Details, Schedule, Venue Section */
 .about, .details, .schedule, .venue {
   background: white;
   margin: 15px auto;
@@ -119,7 +112,6 @@ h2 {
   color: #333;
 }
 
-/* Event Highlights */
 .event-highlights {
   display: flex;
   flex-direction: column;
@@ -138,7 +130,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-/* Responsive Design */
 @media (max-width: 760px) {
   .overlay {
     top: 20%;

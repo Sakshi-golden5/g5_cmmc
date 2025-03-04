@@ -1,7 +1,7 @@
-/* 🌟 Big Outer Container */
+
 .big-container {
-  height: 900px; /* Big height */
-  background-color: #e97c00; /* Light gray background */
+  height: 900px; 
+  background-color: #e97c00; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,6 @@
   margin-top: 70px;
 }
 
-/* 🎤 Section Title */
 .section-title {
   font-size: 44px;
   color: #ffffff;
@@ -34,19 +33,17 @@
 }
 
 
-/* 🏛 White Container */
 .white-container {
   width: 80%;
-  height: 600px; /* Large height */
+  height: 600px;
   background: white;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto; 
   margin-bottom: 5px;
 }
 
-/* 🎭 Speaker Container (Wrapping Items) */
 .speakers-container {
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +51,6 @@
   justify-content: center;
 }
 
-/* 🎤 Speaker Card */
 .speaker-card {
   background: white;
   border-radius: 12px;
@@ -69,7 +65,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* 👤 Speaker Image */
 .speaker-card img {
   width: 100px;
   height: 100px;
@@ -78,21 +73,18 @@
   object-fit: cover;
 }
 
-/* 🎤 Speaker Name */
 .speaker-card h3 {
   font-size: 16px;
   margin-top: 10px;
   color: black;
 }
 
-/* 🏢 Speaker Position */
 .speaker-card p {
   font-size: 14px;
   color: gray;
   margin-top: 5px;
 }
 
-/* 🔄 Vertical Scrolling */
 .white-container::-webkit-scrollbar {
   width: 8px;
 }

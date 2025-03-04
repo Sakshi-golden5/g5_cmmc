@@ -4,12 +4,7 @@ import './Agenda.css';  // Link to the CSS file
 function Agenda() {
   return (
     <div className="agenda-container">
-      {/* Header Section */}
-      {/* <header className="agenda-header">
-        <h1>CMMC2 Event Agenda</h1>
-      </header> */}
-
-      {/* Introduction Section */}
+     
       <section className="agenda-introduction">
         <h2>Welcome to the CMMC Event</h2>
         <p>
@@ -21,7 +16,7 @@ function Agenda() {
         </p>
       </section>
 
-      {/* Key Highlights Section */}
+    
       <section className="agenda-key-points">
         <h3>Key Highlights of the Event</h3>
         <ul>
@@ -32,7 +27,6 @@ function Agenda() {
         </ul>
       </section>
 
-      {/* Importance Section */}
       <section className="agenda-importance">
         <h3>Why is this Event Important?</h3>
         <p>
@@ -44,7 +38,6 @@ function Agenda() {
         </p>
       </section>
 
-      {/* What You Will Learn Section */}
       <section className="agenda-what-you-will-learn">
         <h3>What Will You Learn?</h3>
         <ul>
