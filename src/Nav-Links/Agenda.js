@@ -43,7 +43,6 @@ function Agenda() {
         <ul>
           <li><strong>CMMC2 Overview:</strong> What it is and why it’s necessary.</li>
           <li><strong>Levels of CMMC:</strong> Understanding the three levels and their respective requirements.</li>
-          <li><strong>Key Differences:</strong> Key differences between CMMC1 and CMMC2.</li>
           <li><strong>Implementation Guidance:</strong> How to prepare your organization for CMMC compliance.</li>
           <li><strong>Real-world Case Studies:</strong> How other organizations have successfully implemented CMMC.</li>
         </ul>
