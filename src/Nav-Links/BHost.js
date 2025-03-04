@@ -4,7 +4,7 @@ import img1 from "../assets/2.jpg"
 import img2 from "../assets/3.jpg"
 import vendorimg from "../assets/1.jpg"
 import bannerimg from "../assets/4 3.jpg"
-import logo from "../assets/Newlogo2.png"
+import logo from "../assets/Final.png"
 
 function BHost() {
   const imageRef1 = useRef(null);
