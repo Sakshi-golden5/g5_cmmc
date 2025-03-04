@@ -27,7 +27,7 @@ const eventData = [
     duration: "1 Hour",
     track: "Keynote",
   },
-];
+]; 
 
 function Events() {
   return (

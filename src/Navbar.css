@@ -14,7 +14,7 @@
 
 .navbar img {
     padding-left: 50px;
-    height: 70px;
+    height: 60px;
     width: auto;
 }
 
@@ -40,7 +40,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #b30000;
+    color: #0f206f;
     font-weight: 600;
     transition: 0.3s;
 }
@@ -94,7 +94,7 @@
     padding: 12px 0;
 }
 
-.register-btn {
+.regi-btn {
     background: white;
     border: 2px solid orange;
     padding: 8px 16px;
@@ -106,7 +106,7 @@
     margin-right: 70px;
 }
 
-.register-btn:hover {
+.regi-btn:hover {
     background: orange;
     color: white;
 }
