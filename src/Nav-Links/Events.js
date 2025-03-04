@@ -9,23 +9,47 @@ const eventData = [
   },
   {
     date: "Friday, 18 April",
-    time: "8:30 AM - 9:30 AM",
-    title: "Opening Remarks & State of the Ecosystem",
+    time: "8:30 AM - 9:05 AM",
+    title: "Session 1",
     speakers: [
       { name: "Speaker-1", role: "Position at ABC"},
     ],
     sessionType: "Main Stage Session",
-    duration: "1 Hour",
+    duration: "35 Minutes",
     track: "Keynote",
   },
   {
     date: "Friday, 18 April",
-    time: "9:30 AM - 10:30 AM",
-    title: "Protecting CUI, Federal Contractors & Future of CMMC",
+    time: "9:05 AM - 9:10 AM",
+    title: "Break",
+  },
+  {
+    date: "Friday, 18 April",
+    time: "9:10 AM - 9:45 AM",
+    title: "Session 2",
     speakers: [{ name: "Speaker-2", role: "Position at ABC"}],
     sessionType: "Main Stage Session",
-    duration: "1 Hour",
+    duration: "35 Minutes",
     track: "Keynote",
+  },
+  {
+    date: "Friday, 18 April",
+    time: "9:45 AM - 9:50 AM",
+    title: "Break",
+  },
+  {
+    date: "Friday, 18 April",
+    time: "9:50 AM - 10:25 AM",
+    title: "Session 3",
+    speakers: [{ name: "Speaker-2", role: "Position at ABC"}],
+    sessionType: "Main Stage Session",
+    duration: "35 Minutes",
+    track: "Keynote",
+  },
+  {
+    date: "Friday, 18 April",
+    time: "10:25 AM - 10:30 AM",
+    title: "Break",
   },
 ]; 
 
