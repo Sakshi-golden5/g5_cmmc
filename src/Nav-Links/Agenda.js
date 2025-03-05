@@ -12,8 +12,8 @@ function Agenda() {
         <div className="banner-content">
           <h2>Welcome to the CMMC Events</h2>
           <p>
-            The Cybersecurity Maturity Model Certification (CMMC) 2.0 program is the next iteration of the CMMC cybersecurity model.<br/>
-            This event will give you a comprehensive overview of the CMMC framework, its streamlined structure, <br/> and how it enhancescybersecurity within organizations.
+            The Cybersecurity Maturity Model Certification (CMMC) 2.0 program is the next iteration of the <br/>CMMC cybersecurity model.
+            This event will give you a comprehensive overview of<br/> the CMMC framework, its streamlined structure, and how it <br/>enhancescybersecurity within organizations.
           </p>
         </div>
       </div>

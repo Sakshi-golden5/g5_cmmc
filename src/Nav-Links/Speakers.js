@@ -21,7 +21,8 @@ function Speakers() {
     <div className="big-container">
       <h2 className="section-title">Speakers</h2>
       <p className="section-para">Meet the industry leaders, innovators, and experts who will be sharing their insights at our conference. <br />Our speakers bring years of experience and expertise, covering key topics that will help you stay ahead in the industry.<br /> Gain valuable knowledge, network with professionals, and be part of insightful discussions.<br/> Stay tuned as we announce more speakers!</p>
-      <p className="section-para-2"><Link to="/host-regi" className="speaker-link">Want to Become a Speaker.</Link></p>      <div className="white-container">
+      <Link to="/host-regi" className="speaker-button">Want to Become a Speaker</Link>     
+       <div className="white-container">
         <div className="speakers-container">
           {speakers.map((speaker) => (
             <div key={speaker.id} className="speaker-card">

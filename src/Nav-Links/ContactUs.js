@@ -9,15 +9,13 @@ function ContactUs() {
       <div className="grid">
        
         <div className="office-card">
-          <h3>America (Headquarters)</h3>
-          <p>Golden Five LLC</p>
-          <p>2655, First Street Suite 250, Simi Valley, CA 93065</p>
+          <p>Los Angel - 13031 W. Jefferson Blvd, Suite 200 Playa Vista 90094</p>
           <p>Phone: +1.323.489.8001</p>
           <p>Email: <a href="mailto:info@GoldenFive.net">info@GoldenFive.net</a></p>
         </div>
       </div>
 
-      <hr className="separator" />
+      {/* <hr className="separator" />
       
     
       <h3>Contact Us</h3>
@@ -32,7 +30,7 @@ function ContactUs() {
         <textarea rows="4" placeholder="Your Message"></textarea>
 
         <input type="submit" value="Send Message" className="button-submit" onClick={() => window.open("https://sessionize.com/CWS2025/", "_blank")} /> 
-      </form>
+      </form> */}
     </div>
   );
 }
