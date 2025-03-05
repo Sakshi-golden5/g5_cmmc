@@ -43,7 +43,7 @@ function BHost() {
           <img src={logo} alt="Logo" />
         </div>
       </div>
-      <div class="vendor-section">
+      {/* <div class="vendor-section">
             <div class="vendor-content">
                 <h2>Finding a Vendor - The Express Connect Way</h2>
                 <p>Normally finding a vendor match is time consuming. Researching candidates, sitting through introductory meetings, gathering the team – it takes so much time! With Express Connect, you’ll be able to bounce from vendor to vendor in 30-minute sessions and more likely you’ll know what feels right, and what does not. When you get home from CEIC West your vendor selection process will have truly hit the <em>Express</em> button.</p>
@@ -51,7 +51,7 @@ function BHost() {
             <div class="vendor-image">
                 <img src={vendorimg} alt="Vendor Meeting"/>
             </div>
-        </div>
+        </div> */}
 
         <div class="section-separator"></div>
 
@@ -127,8 +127,33 @@ function BHost() {
           <button className="blue-btn"  onClick={() => window.open("https://sessionize.com/CWS2025/", "_blank")}>Be a Speaker</button>
         </div>
       </div>
+      {/* <div class="section-separator"></div> */}
+      <div className="pricing-section">
+        <h2 className="pricing-title">PRICING</h2>
+  
+        <div className="pricing-table">
+        <div className="pricing-column sponsor">
+          <h3>Lunch Sponsor</h3>
+          <h4>$1500</h4>
+        </div>
+
+        <div className="pricing-column sponsor">
+          <h3>Breakfast Sponsor</h3>
+          <h4>$750</h4>
+        </div>
+
+        <div className="pricing-column sponsor">
+          <h3>Happy Hour Sponsor</h3>
+          <h4>$2500</h4>
+        </div>
+      </div>
+      </div>
+      <button className="blue-btn-2" >Be a Sponser</button>
     </div>
   );
 }
 
 export default BHost;
+
+
+// onClick={() => window.open("https://sessionize.com/CWS2025/", "_blank")}
