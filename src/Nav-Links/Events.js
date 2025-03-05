@@ -99,6 +99,11 @@ const eventData = [
   },
   {
     date: "Friday, 18 April",
+    time: "12:25 PM - 1:25 PM",
+    title: "Lunch Break",
+  },
+  {
+    date: "Friday, 18 April",
     time: "1:25 PM - 2:00 PM",
     title: "Session 7",
     speakers: [{ name: "Speaker-6", role: "Position at ABC" }],

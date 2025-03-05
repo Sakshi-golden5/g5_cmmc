@@ -1,139 +1,104 @@
 
-  .agenda-container {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 12%;
-  }
-  
-  .agenda-header {
-    background-color: #35366e; 
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .agenda-header h1 {
-    font-size: 2.5em;
-    margin: 0;
-    font-weight: bold;
-  }
-  
+.agenda-banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 7%;
+}
 
-.agenda-introduction {
-    background-color: white;
-    color: #030d29;
-    padding: 10px 20px; 
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .agenda-introduction h2 {
-    font-size: 2em;
-    color: #2980b9;
-    padding-bottom: 20px;
-    margin-top: 0; 
-  }
-  
-  .agenda-introduction p {
-    font-size: 1em;
-    line-height: 1.6;
-    margin-top: 5px; 
-  }
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(18%);
+}
 
-  .agenda-key-points {
-    background-color: #f39c12; 
-    color: white;
-    padding: 40px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .agenda-key-points h3 {
-    font-size: 2em;
-    color: white;
-  }
-  
-  .agenda-key-points ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .agenda-key-points li {
-    font-size: 1.1em;
-    color: white;
-    line-height: 1.8;
-  }
+.banner-content {
+  position: relative;
+  max-width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .agenda-importance {
-    background-color: white;
-    color: #2980b9; 
-    padding: 40px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .agenda-importance h3 {
-    font-size: 2em;
-    color: #2980b9;
-  }
-  
-  .agenda-importance p {
-    font-size: 1.1em;
-    line-height: 1.6;
-  }
+.banner-content h2 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
 
-  .agenda-what-you-will-learn {
-    background-color: #f39c12; 
-    color: white;
-    padding: 40px 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .agenda-what-you-will-learn h3 {
-    font-size: 2em;
-    color: white;
-  }
-  
-  .agenda-what-you-will-learn ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .agenda-what-you-will-learn li {
-    font-size: 1.1em;
-    color: white;
-    line-height: 1.8;
-  }
+.banner-content p {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: #f0f0f0;
+  text-align: center;
+}
 
-  @media screen and (max-width: 768px) {
-    .agenda-container {
-      width: 95%;
-    }
-  
-    .agenda-header h1 {
-      font-size: 2em;
-    }
-  
-    .agenda-introduction h2,
-    .agenda-key-points h3,
-    .agenda-importance h3,
-    .agenda-what-you-will-learn h3 {
-      font-size: 1.5em;
-    }
-  
-    .agenda-introduction p,
-    .agenda-key-points li,
-    .agenda-importance p,
-    .agenda-what-you-will-learn li {
-      font-size: 1em;
-    }
-  }
-  
+.agenda-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.agenda-card {
+  height: 300px;
+  background: linear-gradient(180deg, white 60%, #ffcc80 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.agenda-card h3{
+  font-size: 160%;
+  margin-bottom: 50px;
+}
+
+.agenda-final-card {
+  width: 80%;
+  height: 45vh;
+  margin: 40px auto;
+  background: linear-gradient(to right, #FF8C00, #FFA500); 
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 120%;
+}
+
+.agenda-final-card h3{
+  text-align: left;
+  font-size: 150%;
+  color: white;
+}
+
+.agenda-final-card ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  text-align: left; /* Aligns text to the left */
+}
+
+.agenda-final-card ul li {
+  color: rgb(32, 32, 32);
+  margin-bottom: 10px; /* Adds space between lines */
+  text-indent: -10px; /* Ensures proper text alignment */
+  padding-left: 10px; /* Adjust spacing */
+}
+
+.agenda-final-card b {
+  display: inline; /* Keeps bold text inline */
+}
