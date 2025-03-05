@@ -1,0 +1,139 @@
+
+  .agenda-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12%;
+  }
+  
+  .agenda-header {
+    background-color: #35366e; 
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agenda-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+
+.agenda-introduction {
+    background-color: white;
+    color: #030d29;
+    padding: 10px 20px; 
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agenda-introduction h2 {
+    font-size: 2em;
+    color: #2980b9;
+    padding-bottom: 20px;
+    margin-top: 0; 
+  }
+  
+  .agenda-introduction p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-top: 5px; 
+  }
+
+  .agenda-key-points {
+    background-color: #f39c12; 
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agenda-key-points h3 {
+    font-size: 2em;
+    color: white;
+  }
+  
+  .agenda-key-points ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .agenda-key-points li {
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.8;
+  }
+
+  .agenda-importance {
+    background-color: white;
+    color: #2980b9; 
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .agenda-importance h3 {
+    font-size: 2em;
+    color: #2980b9;
+  }
+  
+  .agenda-importance p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  .agenda-what-you-will-learn {
+    background-color: #f39c12; 
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .agenda-what-you-will-learn h3 {
+    font-size: 2em;
+    color: white;
+  }
+  
+  .agenda-what-you-will-learn ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .agenda-what-you-will-learn li {
+    font-size: 1.1em;
+    color: white;
+    line-height: 1.8;
+  }
+
+  @media screen and (max-width: 768px) {
+    .agenda-container {
+      width: 95%;
+    }
+  
+    .agenda-header h1 {
+      font-size: 2em;
+    }
+  
+    .agenda-introduction h2,
+    .agenda-key-points h3,
+    .agenda-importance h3,
+    .agenda-what-you-will-learn h3 {
+      font-size: 1.5em;
+    }
+  
+    .agenda-introduction p,
+    .agenda-key-points li,
+    .agenda-importance p,
+    .agenda-what-you-will-learn li {
+      font-size: 1em;
+    }
+  }
+  
