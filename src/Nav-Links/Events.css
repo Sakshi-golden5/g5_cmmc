@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 20px;
     max-width: 800px;
-    margin: 40px auto;
+    margin: 0px auto;
     font-family: Arial, sans-serif;
     padding-top: 100px;
 }
@@ -99,3 +99,19 @@
 .save-seat-btn:hover {
     background-color: #000000;
 }
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    background: #ffe6e6;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,5 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Events.css";
+
+const targetDate = new Date("April 18, 2025 00:00:00").getTime();
+
+const CountdownTimer = () => {
+  const [timeLeft, setTimeLeft] = useState(getTimeRemaining());
+
+  function getTimeRemaining() {
+    const now = new Date().getTime();
+    const difference = targetDate - now;
+
+    if (difference <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / (1000 * 60)) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeLeft(getTimeRemaining());
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="countdown-timer">
+      <p>{`${timeLeft.days}d : ${timeLeft.hours}h : ${timeLeft.minutes}m : ${timeLeft.seconds}s`}</p>
+    </div>
+  );
+};
 
 const eventData = [
   {
@@ -102,12 +138,12 @@ const eventData = [
     time: "4:00 PM - 4:30 PM",
     title: "Closing Remarks"
   }
-]
- 
+];
 
 function Events() {
   return (
     <div className="events-container">
+      <CountdownTimer />
       {eventData.map((event, index) => (
         <div key={index} className={`event-card ${event.speakers ? "session" : "break"}`}>
           <div className="event-time">
